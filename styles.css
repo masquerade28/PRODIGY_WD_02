@@ -1,0 +1,51 @@
+body{
+  background-image: url(Aesthetic\ Wallpaper.jpg);
+  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+  }
+  
+.stopwatch {
+    width: 300px;
+  }
+  
+.display {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+#time {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    
+  }
+  
+button {
+    padding: 10px 20px;
+    margin-right: 5px;
+      margin-top:5px;
+  }
+  
+#laps {
+    list-style-type: none;
+    padding: 2px;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+  }
+  
+#laps li {
+    margin-bottom: 5px;
+  }
+  
+.click{
+  border-radius: 12px;
+  border-width: 0px;
+}
