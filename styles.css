@@ -1,51 +1,58 @@
-body{
+/* Styling for the body, setting background image */
+body {
   background-image: url(Aesthetic\ Wallpaper.jpg);
-  
 }
 
+/* Styling for the container, centering its contents vertically and horizontally */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 97vh;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh; /* 97% of the viewport height */
+}
+
+/* Styling for the stopwatch element, limiting its width */
 .stopwatch {
-    width: 300px;
-  }
-  
+  width: 300px;
+}
+
+/* Styling for the display area, centering text and adding bottom margin */
 .display {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for the time display, setting font size, weight, and color */
 #time {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: white;
-    
-  }
-  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* Styling for buttons, setting padding, margins, and border radius */
 button {
-    padding: 10px 20px;
-    margin-right: 5px;
-      margin-top:5px;
-  }
-  
+  padding: 10px 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Styling for the laps list, setting list style, padding, colors, and border radius */
 #laps {
-    list-style-type: none;
-    padding: 2px;
-    color: black;
-    background-color: white;
-    border-radius: 12px;
-  }
-  
+  list-style-type: none;
+  padding: 2px;
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+}
+
+/* Styling for individual lap items, setting bottom margin */
 #laps li {
-    margin-bottom: 5px;
-  }
-  
-.click{
+  margin-bottom: 5px;
+}
+
+/* Additional styling for a class named 'click', setting border radius and border width */
+.click {
   border-radius: 12px;
   border-width: 0px;
 }
